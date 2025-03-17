@@ -1,4 +1,4 @@
-package model;
+package br.sp.senai.jandira.calculo_poligonos.model;
 
 public class Triangulo {
 	

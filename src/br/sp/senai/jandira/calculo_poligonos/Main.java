@@ -1,10 +1,6 @@
 package br.sp.senai.jandira.calculo_poligonos;
 
-import model.Circunferencia;
-import model.Quadrado;
-import model.Retangulo;
-import model.Trapezio;
-import model.Triangulo;
+import br.sp.senai.jandira.calculo_poligonos.model.*;
 
 public class Main {
 

@@ -5,6 +5,7 @@ public class Circunferencia {
 	private double raio;
 	
 	public void setRaio(double raio) {
+		// teste
 		this.raio = raio;
 	}
 	

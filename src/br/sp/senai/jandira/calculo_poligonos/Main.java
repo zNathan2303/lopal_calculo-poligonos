@@ -2,53 +2,54 @@ package br.sp.senai.jandira.calculo_poligonos;
 
 import java.util.Scanner;
 
-import br.sp.senai.jandira.calculo_poligonos.model.*;
+import br.sp.senai.jandira.calculo_poligonos.ui.Menu;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Menu.criarMenu();
+		System.out.println("+------------------------------+");
+		System.out.println(" Tabuada do 9");
+		System.out.println("+------------------------------+");
+		System.out.println();
+		int contador = 0;
+		while(contador <= 10) {
+			int calculo = 9 * contador;
+			System.out.println(" " + 9 + " x " + contador + " = " + calculo);
+			contador = contador + 1;
+		}
 		
-//		Scanner leitor = new Scanner(System.in);
-//		
-//		System.out.print("Qual raio da circunferência? ");
-//		double valorRaio = leitor.nextDouble();
-//		
-//		System.out.print("Qual a altura do quadrado? ");
-//		double valorLado = leitor.nextDouble();
-//		
-//		System.out.print("Qual a altura do rentângulo? ");
-//		double valorAltura = leitor.nextDouble();
-//		
-//		System.out.print("Qual a base do rentângulo? ");
-//		double valorBaseRetangulo = leitor.nextDouble();
+		System.out.println();
+		System.out.println("+------------------------------+");
+		System.out.println("Números ímpares de 0 à 100");
+		System.out.println("+------------------------------+");
+		System.out.println();
+		contador = 0;
+		while(contador <= 100) {
+			if (contador % 2 == 1) {
+				System.out.println(" O número " + contador + " é primo!");
+			}
+			contador = contador + 1;
+		}
 		
-		Circunferencia circunferencia = new Circunferencia();
-		circunferencia.setRaio(5);
-		circunferencia.exibirDados();
+		System.out.println();
+		System.out.println("+------------------------------+");
+		Scanner leitor = new Scanner(System.in);
+		String resposta = "s";
+		while (resposta.equalsIgnoreCase("s")) {
+			System.out.println("Estamos dando voltas!");
+			System.out.print("Mais uma volta (S/N)? ");
+			resposta = leitor.next();
+			
+			
+			
+		}
 		
-		Quadrado quadrado = new Quadrado();
-		quadrado.setLado(5);
-		quadrado.exibirDados();
+		leitor.close();
 		
-		Retangulo retangulo = new Retangulo();
-		retangulo.setAltura(5);
-		retangulo.setBase(5);
-		retangulo.exibirDados();
+//		contador += 2;
+//		Menu.criarMenu();
 		
-		Trapezio trapezio = new Trapezio();
-		trapezio.setAltura(9);
-		trapezio.setBaseMenor(10);
-		trapezio.setBaseMaior(18);
-		trapezio.exibirDados();
-		
-		Triangulo triangulo = new Triangulo();
-		triangulo.setAltura(9);
-		triangulo.setBase(5);
-		triangulo.setLadoEsquerdo(4);
-		triangulo.setLadoDireito(3);
-		triangulo.exibirDados();
 	}
 	
 }

@@ -2,6 +2,8 @@ package br.sp.senai.jandira.calculo_poligonos.model;
 
 public class Triangulo {
 	
+//	teste1
+	
 	private double altura;
 	private double base;
 	private double ladoEsquerdo;

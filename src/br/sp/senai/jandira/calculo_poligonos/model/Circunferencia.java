@@ -2,10 +2,11 @@ package br.sp.senai.jandira.calculo_poligonos.model;
 
 public class Circunferencia {
 	
+//	teste1
+	
 	private double raio;
 	
 	public void setRaio(double raio) {
-		// teste
 		this.raio = raio;
 	}
 	

@@ -2,6 +2,8 @@ package br.sp.senai.jandira.calculo_poligonos.model;
 
 public class Retangulo {
 	
+//	teste1
+	
 	private double base;
 	private double altura;
 	

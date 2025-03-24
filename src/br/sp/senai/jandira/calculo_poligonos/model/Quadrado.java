@@ -2,6 +2,8 @@ package br.sp.senai.jandira.calculo_poligonos.model;
 
 public class Quadrado {
 
+//	teste1
+	
 	private double lado;
 	
 	public void setLado(double lado) {

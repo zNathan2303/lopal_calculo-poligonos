@@ -6,6 +6,8 @@ public class CalculoDePoligonos {
 	
 	public static void calcularRetangulo() {
 		
+//		teste1
+		
 		Retangulo retangulo = new Retangulo();
 		Scanner leitor = new Scanner(System.in);
 		
